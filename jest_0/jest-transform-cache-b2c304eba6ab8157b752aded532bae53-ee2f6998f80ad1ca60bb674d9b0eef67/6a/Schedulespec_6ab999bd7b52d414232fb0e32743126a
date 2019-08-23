@@ -1,0 +1,27 @@
+f0c164b52a219967a151790437cd3502
+"use strict";
+
+var _interopRequireDefault = require("/var/www/html/react-schedule/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+var _react = _interopRequireDefault(require("react"));
+
+var _reactTestRenderer = require("react-test-renderer");
+
+var _Schedule = _interopRequireDefault(require("./../components/schedule/Schedule"));
+
+var _jsxFileName = "/var/www/html/react-schedule/src/tests/Schedule.spec.js";
+const title = 'TITLE HERE';
+describe('Schedule component', () => {
+  test('Matches the snapshot', () => {
+    const schedule = (0, _reactTestRenderer.create)(_react.default.createElement(_Schedule.default, {
+      title: title,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 9
+      },
+      __self: void 0
+    }));
+    expect(schedule.toJSON()).toMatchSnapshot();
+  });
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIlNjaGVkdWxlLnNwZWMuanMiXSwibmFtZXMiOlsidGl0bGUiLCJkZXNjcmliZSIsInRlc3QiLCJzY2hlZHVsZSIsImV4cGVjdCIsInRvSlNPTiIsInRvTWF0Y2hTbmFwc2hvdCJdLCJtYXBwaW5ncyI6Ijs7OztBQUFBOztBQUNBOztBQUNBOzs7QUFFQSxNQUFNQSxLQUFLLEdBQUcsWUFBZDtBQUVBQyxRQUFRLENBQUMsb0JBQUQsRUFBdUIsTUFBTTtBQUNqQ0MsRUFBQUEsSUFBSSxDQUFDLHNCQUFELEVBQXlCLE1BQU07QUFDL0IsVUFBTUMsUUFBUSxHQUFHLCtCQUFPLDZCQUFDLGlCQUFEO0FBQVUsTUFBQSxLQUFLLEVBQUVILEtBQWpCO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLE1BQVAsQ0FBakI7QUFDQUksSUFBQUEsTUFBTSxDQUFDRCxRQUFRLENBQUNFLE1BQVQsRUFBRCxDQUFOLENBQTBCQyxlQUExQjtBQUNILEdBSEcsQ0FBSjtBQUlILENBTE8sQ0FBUiIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCdcbmltcG9ydCB7IGNyZWF0ZSB9IGZyb20gJ3JlYWN0LXRlc3QtcmVuZGVyZXInXG5pbXBvcnQgU2NoZWR1bGUgZnJvbSAnLi8uLi9jb21wb25lbnRzL3NjaGVkdWxlL1NjaGVkdWxlJ1xuXG5jb25zdCB0aXRsZSA9ICdUSVRMRSBIRVJFJ1xuXG5kZXNjcmliZSgnU2NoZWR1bGUgY29tcG9uZW50JywgKCkgPT4ge1xuICAgIHRlc3QoJ01hdGNoZXMgdGhlIHNuYXBzaG90JywgKCkgPT4ge1xuICAgICAgICBjb25zdCBzY2hlZHVsZSA9IGNyZWF0ZSg8U2NoZWR1bGUgdGl0bGU9e3RpdGxlfSAvPilcbiAgICAgICAgZXhwZWN0KHNjaGVkdWxlLnRvSlNPTigpKS50b01hdGNoU25hcHNob3QoKVxuICAgIH0pXG59KSJdfQ==
