@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import DefaultTable from './../table/DefaultTable'
 import DefaultForm from './../form/DefaultForm'
 
 import {
@@ -100,9 +101,10 @@ class Schedule extends Component{
         return (
             <div className="Schedule">
                 <h1 className="Schedule-header">{this.props.title}</h1>
-                    <DefaultForm selects={selects} inputs={inputs} onSubmit={this.addItem} />
+                <DefaultForm selects={selects} inputs={inputs} onSubmit={this.addItem} />
                 <div className="Schedule-border"></div>
                 <div className="Schedule-container-table">
+                    <DefaultTable onClick={this.removeItem} itemsHead={itemsHead} items={this.state.items} />
                 </div>
                 <div>
                     <h3>{this.state.studiedHours} hours</h3>
