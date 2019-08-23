@@ -1,0 +1,53 @@
+.Schedule {
+    text-align: center;
+    width: 60%;
+}
+    .Schedule-header {
+        font-size: 40px;
+        font-style: italic;
+        font-weight: 400;
+        margin: 0 0 20px 0;
+    }
+        .Schedule-header-container {
+            max-width: 80%;
+            margin: 0 auto;
+        }
+            .Schedule-header-container-form {
+                height: 60px;
+                background: #ccc;
+                border-radius: 3px;
+                border: solid 1px #00000059;
+            }
+    .Schedule-border {
+        width: 65%;
+        height: 2px;
+        background: #ccc;
+        margin: 20px 0 20px 0;
+        display: inline-block;
+        text-align: center;
+    }
+    .Schedule-container-table{
+        height: 50vh;
+        overflow: hidden auto;
+        margin-bottom: 16px;
+    }
+        .Schedule-table {
+            width: 80%;
+            height: auto;
+            max-height: 35vh;
+            margin: 0 auto;
+            background: #ccc;
+            border-radius: 3px;
+            border: solid 1px #00000059;
+            color: #000;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+            .Schedule-table-thead{
+                background: #f5f5f5;
+                color: #ccc;
+            }
+            .Schedule-table-thead:hover{
+                background: #ccc;
+                color: #f5f5f5;
+            }
