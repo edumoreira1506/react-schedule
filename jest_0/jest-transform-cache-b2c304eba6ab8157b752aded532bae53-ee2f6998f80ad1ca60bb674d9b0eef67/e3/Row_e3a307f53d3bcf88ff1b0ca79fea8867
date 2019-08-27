@@ -1,0 +1,75 @@
+3ab77a1f5778ef6d97dbc931f31b3db1
+"use strict";
+
+var _interopRequireWildcard = require("/var/www/html/react-schedule/node_modules/@babel/runtime/helpers/interopRequireWildcard");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireWildcard(require("react"));
+
+require("./Row.css");
+
+require("./../../index.css");
+
+var _jsxFileName = "/var/www/html/react-schedule/src/components/table/Row.js";
+
+class Row extends _react.Component {
+  constructor(...args) {
+    super(...args);
+
+    this.makeCells = (arrayItems, onClick, index) => {
+      const elements = [];
+
+      for (let i in arrayItems) {
+        elements.push(_react.default.createElement("td", {
+          className: "Cell-row",
+          key: i,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 12
+          },
+          __self: this
+        }, arrayItems[i]));
+      }
+
+      elements.push(_react.default.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        },
+        __self: this
+      }, _react.default.createElement("button", {
+        className: "Cell-remove-button transition",
+        onClick: () => {
+          onClick(index);
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        },
+        __self: this
+      }, "X")));
+      return elements;
+    };
+  }
+
+  render() {
+    const elements = this.makeCells(this.props.items, this.props.onClick, this.props.index);
+    return _react.default.createElement("tr", {
+      className: "transition Cell",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 26
+      },
+      __self: this
+    }, elements);
+  }
+
+}
+
+var _default = Row;
+exports.default = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIlJvdy5qcyJdLCJuYW1lcyI6WyJSb3ciLCJDb21wb25lbnQiLCJtYWtlQ2VsbHMiLCJhcnJheUl0ZW1zIiwib25DbGljayIsImluZGV4IiwiZWxlbWVudHMiLCJpIiwicHVzaCIsInJlbmRlciIsInByb3BzIiwiaXRlbXMiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7OztBQUFBOztBQUVBOztBQUNBOzs7O0FBRUEsTUFBTUEsR0FBTixTQUFrQkMsZ0JBQWxCLENBQTJCO0FBQUE7QUFBQTs7QUFBQSxTQUV2QkMsU0FGdUIsR0FFWCxDQUFDQyxVQUFELEVBQWFDLE9BQWIsRUFBc0JDLEtBQXRCLEtBQWdDO0FBQ3hDLFlBQU1DLFFBQVEsR0FBRyxFQUFqQjs7QUFFQSxXQUFJLElBQUlDLENBQVIsSUFBYUosVUFBYixFQUF3QjtBQUNwQkcsUUFBQUEsUUFBUSxDQUFDRSxJQUFULENBQWM7QUFBSSxVQUFBLFNBQVMsRUFBQyxVQUFkO0FBQXlCLFVBQUEsR0FBRyxFQUFFRCxDQUE5QjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxXQUFrQ0osVUFBVSxDQUFDSSxDQUFELENBQTVDLENBQWQ7QUFDSDs7QUFFREQsTUFBQUEsUUFBUSxDQUFDRSxJQUFULENBQWM7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsU0FDVjtBQUFRLFFBQUEsU0FBUyxFQUFDLCtCQUFsQjtBQUFrRCxRQUFBLE9BQU8sRUFBRSxNQUFNO0FBQUNKLFVBQUFBLE9BQU8sQ0FBQ0MsS0FBRCxDQUFQO0FBQWUsU0FBakY7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsYUFEVSxDQUFkO0FBSUEsYUFBT0MsUUFBUDtBQUNILEtBZHNCO0FBQUE7O0FBZ0J2QkcsRUFBQUEsTUFBTSxHQUFHO0FBQ0wsVUFBTUgsUUFBUSxHQUFHLEtBQUtKLFNBQUwsQ0FBZSxLQUFLUSxLQUFMLENBQVdDLEtBQTFCLEVBQWlDLEtBQUtELEtBQUwsQ0FBV04sT0FBNUMsRUFBcUQsS0FBS00sS0FBTCxDQUFXTCxLQUFoRSxDQUFqQjtBQUVBLFdBQ0k7QUFBSSxNQUFBLFNBQVMsRUFBQyxpQkFBZDtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxPQUNLQyxRQURMLENBREo7QUFLSDs7QUF4QnNCOztlQTJCWk4sRyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCwgeyBDb21wb25lbnQgfSBmcm9tICdyZWFjdCdcblxuaW1wb3J0ICcuL1Jvdy5jc3MnXG5pbXBvcnQgJy4vLi4vLi4vaW5kZXguY3NzJ1xuXG5jbGFzcyBSb3cgZXh0ZW5kcyBDb21wb25lbnR7XG5cbiAgICBtYWtlQ2VsbHMgPSAoYXJyYXlJdGVtcywgb25DbGljaywgaW5kZXgpID0+IHtcbiAgICAgICAgY29uc3QgZWxlbWVudHMgPSBbXVxuICAgIFxuICAgICAgICBmb3IobGV0IGkgaW4gYXJyYXlJdGVtcyl7XG4gICAgICAgICAgICBlbGVtZW50cy5wdXNoKDx0ZCBjbGFzc05hbWU9XCJDZWxsLXJvd1wiIGtleT17aX0+e2FycmF5SXRlbXNbaV19PC90ZD4pO1xuICAgICAgICB9XG4gICAgXG4gICAgICAgIGVsZW1lbnRzLnB1c2goPHRkPlxuICAgICAgICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9XCJDZWxsLXJlbW92ZS1idXR0b24gdHJhbnNpdGlvblwiIG9uQ2xpY2s9eygpID0+IHtvbkNsaWNrKGluZGV4KX19Plg8L2J1dHRvbj5cbiAgICAgICAgPC90ZD4pXG4gICAgXG4gICAgICAgIHJldHVybiBlbGVtZW50c1xuICAgIH1cblxuICAgIHJlbmRlcigpIHtcbiAgICAgICAgY29uc3QgZWxlbWVudHMgPSB0aGlzLm1ha2VDZWxscyh0aGlzLnByb3BzLml0ZW1zLCB0aGlzLnByb3BzLm9uQ2xpY2ssIHRoaXMucHJvcHMuaW5kZXgpXG5cbiAgICAgICAgcmV0dXJuIChcbiAgICAgICAgICAgIDx0ciBjbGFzc05hbWU9XCJ0cmFuc2l0aW9uIENlbGxcIj5cbiAgICAgICAgICAgICAgICB7ZWxlbWVudHN9XG4gICAgICAgICAgICA8L3RyPlxuICAgICAgICApXG4gICAgfVxufVxuXG5leHBvcnQgZGVmYXVsdCBSb3ciXX0=

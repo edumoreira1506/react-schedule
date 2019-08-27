@@ -1,0 +1,16 @@
+f07b669523bac2744c4737fff560db53
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.brazilianDate = void 0;
+
+const brazilianDate = americanDate => {
+  let arrayDate = americanDate.split('-');
+  let brazilianDate = `${arrayDate[2]}/${arrayDate[1]}/${arrayDate[0]}`;
+  return brazilianDate;
+};
+
+exports.brazilianDate = brazilianDate;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImRhdGUuanMiXSwibmFtZXMiOlsiYnJhemlsaWFuRGF0ZSIsImFtZXJpY2FuRGF0ZSIsImFycmF5RGF0ZSIsInNwbGl0Il0sIm1hcHBpbmdzIjoiOzs7Ozs7O0FBQUEsTUFBTUEsYUFBYSxHQUFJQyxZQUFELElBQWtCO0FBQ3BDLE1BQUlDLFNBQVMsR0FBR0QsWUFBWSxDQUFDRSxLQUFiLENBQW1CLEdBQW5CLENBQWhCO0FBQ0EsTUFBSUgsYUFBYSxHQUFJLEdBQUVFLFNBQVMsQ0FBQyxDQUFELENBQUksSUFBR0EsU0FBUyxDQUFDLENBQUQsQ0FBSSxJQUFHQSxTQUFTLENBQUMsQ0FBRCxDQUFJLEVBQXBFO0FBQ0EsU0FBT0YsYUFBUDtBQUNILENBSkQiLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCBicmF6aWxpYW5EYXRlID0gKGFtZXJpY2FuRGF0ZSkgPT4ge1xuICAgIGxldCBhcnJheURhdGUgPSBhbWVyaWNhbkRhdGUuc3BsaXQoJy0nKVxuICAgIGxldCBicmF6aWxpYW5EYXRlID0gYCR7YXJyYXlEYXRlWzJdfS8ke2FycmF5RGF0ZVsxXX0vJHthcnJheURhdGVbMF19YFxuICAgIHJldHVybiBicmF6aWxpYW5EYXRlXG59XG5cbmV4cG9ydCB7XG4gICAgYnJhemlsaWFuRGF0ZVxufSJdfQ==

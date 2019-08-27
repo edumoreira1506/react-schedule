@@ -1,0 +1,24 @@
+.Cell{
+  height: 30px;
+}
+.Cell:hover{
+  background: #000;
+  color: #ccc;
+}
+.Cell-row{
+  padding: 10px 0 7px 0;
+  height: 30px;
+}
+.Cell-remove-button{
+  width: 25px;
+  height: 25px;
+  border-radius: 3px;
+  border: solid 2px #ccc;
+  background: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+.Cell-remove-button:hover{
+  border: solid 2px #fff;
+  background: #ccc;
+}

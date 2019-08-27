@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Schedule component Matches the snapshot 1`] = `
+<div
+  className="Schedule"
+>
+  <h1
+    className="Schedule-header"
+  >
+    TITLE HERE
+  </h1>
+  <div
+    className="Schedule-header-container"
+  >
+    <form
+      className="Schedule-header-container-form"
+      onSubmit={[Function]}
+    >
+      <input
+        className="input-group"
+        onChange={[Function]}
+        placeholder="Time event"
+        type="number"
+        value=""
+      />
+      <input
+        className="input-group"
+        onChange={[Function]}
+        type="date"
+        value=""
+      />
+      <select
+        className="input-group"
+        onChange={[Function]}
+        value=""
+      >
+        <option
+          value=""
+        >
+          Selecionar
+        </option>
+        <option
+          value="Run"
+        >
+          Run
+        </option>
+        <option
+          value="Speed"
+        >
+          Speed
+        </option>
+      </select>
+      <button
+        className="input-group transition"
+        type="submit"
+      >
+        Add
+      </button>
+    </form>
+  </div>
+  <div
+    className="Schedule-border"
+  />
+  <div
+    className="Schedule-container-table"
+  >
+    <table
+      className="Schedule-table"
+    >
+      <thead
+        className="Schedule-table-thead transition"
+      >
+        <tr>
+          <td
+            className="Cell-row"
+          >
+            Time
+          </td>
+          <td
+            className="Cell-row"
+          >
+            Type
+          </td>
+          <td
+            className="Cell-row"
+          >
+            Date
+          </td>
+          <td
+            className="Cell-row"
+          >
+            Actions
+          </td>
+        </tr>
+      </thead>
+      <tbody
+        className="Schedule-table-tbody"
+      />
+    </table>
+  </div>
+  <div>
+    <h3>
+      0
+       hours
+    </h3>
+  </div>
+</div>
+`;

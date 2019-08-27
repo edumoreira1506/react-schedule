@@ -1,0 +1,25 @@
+6302194d86cdc638f89cbd797f76ced8
+"use strict";
+
+var _interopRequireDefault = require("/var/www/html/react-schedule/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+var _react = _interopRequireDefault(require("react"));
+
+var _reactTestRenderer = require("react-test-renderer");
+
+var _jsxFileName = "/var/www/html/react-schedule/src/tests/Schedule.spec.js";
+const title = 'TITLE HERE';
+describe('Schedule component', () => {
+  test('Matches the snapshot', () => {
+    const schedule = (0, _reactTestRenderer.create)(_react.default.createElement(Schedule, {
+      title: title,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 8
+      },
+      __self: void 0
+    }));
+    expect(schedule.toJSON()).toMatchSnapshot();
+  });
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIlNjaGVkdWxlLnNwZWMuanMiXSwibmFtZXMiOlsidGl0bGUiLCJkZXNjcmliZSIsInRlc3QiLCJzY2hlZHVsZSIsImV4cGVjdCIsInRvSlNPTiIsInRvTWF0Y2hTbmFwc2hvdCJdLCJtYXBwaW5ncyI6Ijs7OztBQUFBOztBQUNBOzs7QUFFQSxNQUFNQSxLQUFLLEdBQUcsWUFBZDtBQUVBQyxRQUFRLENBQUMsb0JBQUQsRUFBdUIsTUFBTTtBQUNqQ0MsRUFBQUEsSUFBSSxDQUFDLHNCQUFELEVBQXlCLE1BQU07QUFDL0IsVUFBTUMsUUFBUSxHQUFHLCtCQUFPLDZCQUFDLFFBQUQ7QUFBVSxNQUFBLEtBQUssRUFBRUgsS0FBakI7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsTUFBUCxDQUFqQjtBQUNBSSxJQUFBQSxNQUFNLENBQUNELFFBQVEsQ0FBQ0UsTUFBVCxFQUFELENBQU4sQ0FBMEJDLGVBQTFCO0FBQ0gsR0FIRyxDQUFKO0FBSUgsQ0FMTyxDQUFSIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHsgY3JlYXRlIH0gZnJvbSAncmVhY3QtdGVzdC1yZW5kZXJlcidcblxuY29uc3QgdGl0bGUgPSAnVElUTEUgSEVSRSdcblxuZGVzY3JpYmUoJ1NjaGVkdWxlIGNvbXBvbmVudCcsICgpID0+IHtcbiAgICB0ZXN0KCdNYXRjaGVzIHRoZSBzbmFwc2hvdCcsICgpID0+IHtcbiAgICAgICAgY29uc3Qgc2NoZWR1bGUgPSBjcmVhdGUoPFNjaGVkdWxlIHRpdGxlPXt0aXRsZX0gLz4pXG4gICAgICAgIGV4cGVjdChzY2hlZHVsZS50b0pTT04oKSkudG9NYXRjaFNuYXBzaG90KClcbiAgICB9KVxufSkiXX0=
